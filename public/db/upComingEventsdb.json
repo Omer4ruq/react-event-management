@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "TechXperience Expo 2023",
+    "date": "2023-11-10",
+    "time": "10:00 AM - 6:00 PM",
+    "location": "Tech Hub Convention Center",
+    "description": "Join us at TechXperience Expo 2023 for a day filled with cutting-edge tech products, interactive exhibits, and insightful keynotes. Explore the future of technology!",
+    "image": "https://i.ibb.co/JcvVsSV/CHTF-2022-photo.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Gamer's Quest Tournament",
+    "date": "2023-12-05",
+    "time": "1:00 PM - 8:00 PM",
+    "location": "Gaming Arena",
+    "description": "Calling all gamers! Participate in the ultimate Gamer's Quest Tournament. Compete in various gaming genres, win exciting prizes, and be crowned the gaming champion!",
+    "image": "https://i.ibb.co/z7nspbK/b7.jpg"
+  },
+  {
+    "id": 3,
+    "title": "FutureTech Symposium 2024",
+    "date": "2024-01-20",
+    "time": "9:30 AM - 5:30 PM",
+    "location": "Innovation Center",
+    "description": "Explore the latest advancements in future technologies at FutureTech Symposium 2024. Engage with industry experts, attend workshops, and envision the tech landscape of tomorrow.",
+    "image": "https://i.ibb.co/JcvVsSV/CHTF-2022-photo.jpg"
+  }
+]

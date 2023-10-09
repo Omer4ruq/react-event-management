@@ -1,0 +1,65 @@
+[
+  {
+    "id": "s1",
+    "serviceName": "Tech Conferences",
+    "details": "Engage with industry leaders and discover the latest trends in technology.",
+    "bookingOption": "Online booking available",
+    "image": "https://i.ibb.co/pd9VW3k/tech-conferenc.jpg"
+  },
+  {
+    "id": "s2",
+    "serviceName": "Gaming Tournaments",
+    "details": "Experience thrilling gaming competitions with state-of-the-art setups.",
+    "bookingOption": "Register your team now!",
+    "image": "https://i.ibb.co/1znSb14/Video-game-tournament.webp"
+  },
+  {
+    "id": "s3",
+    "serviceName": "Virtual Reality Showcases",
+    "details": "Dive into immersive virtual reality experiences and explore cutting-edge VR technologies.",
+    "bookingOption": "Book your VR adventure",
+    "image": "https://i.ibb.co/BLWNRmL/resized-Top-Upcoming-Augmented-and-Virtual-Reality-Events-and-Conventions-in-2018.jpg"
+  },
+  {
+    "id": "s4",
+    "serviceName": "Tech and Gaming Expos",
+    "details": "Discover and interact with the latest tech gadgets and gaming products.",
+    "bookingOption": "Get your expo pass",
+    "image": "https://i.ibb.co/L8Z3pfc/tech-and-gamming-expos.jpg"
+  },
+  {
+    "id": "s5",
+    "serviceName": "Coding Workshops",
+    "details": "Enhance your coding skills with hands-on workshops conducted by expert programmers.",
+    "bookingOption": "Enroll in a workshop",
+    "image": "https://i.ibb.co/bvFJWBs/Coding-Workshops.jpg"
+  },
+  {
+    "id": "s6",
+    "serviceName": "E-Sports Leagues",
+    "details": "Compete in professional e-sports leagues and showcase your gaming prowess.",
+    "bookingOption": "Join a league",
+    "image": "https://i.ibb.co/2WkPk0t/esports.jpg"
+  },
+  {
+    "id": "s7",
+    "serviceName": "Future Tech Symposium",
+    "details": "Explore futuristic technologies and their potential impact on various industries.",
+    "bookingOption": "Secure your symposium seat",
+    "image": "https://i.ibb.co/pxJhbSD/Future-Tech-Symposium.jpg"
+  },
+  {
+    "id": "s8",
+    "serviceName": "Game Developer Meetups",
+    "details": "Connect with fellow game developers, share ideas, and collaborate on exciting projects.",
+    "bookingOption": "RSVP for the next meetup",
+    "image": "https://i.ibb.co/D8jnPHP/game-developer-conference.jpg"
+  },
+  {
+    "id": "s9",
+    "serviceName": "AI Innovation Summit",
+    "details": "Delve into the world of artificial intelligence and its transformative applications.",
+    "bookingOption": "Reserve your spot",
+    "image": "https://i.ibb.co/r3j11jN/AI-Innovation-Summit.jpg"
+  }
+]
