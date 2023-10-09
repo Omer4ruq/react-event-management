@@ -9,7 +9,7 @@ const Navbar = () => {
     logOut().then().catch();
   };
   return (
-    <div>
+    <div className="">
       <div className="navbar bg-transparent  text-white">
         <div className="navbar-start">
           <div className="dropdown">

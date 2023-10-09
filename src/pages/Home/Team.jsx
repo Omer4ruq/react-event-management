@@ -12,7 +12,7 @@ const Team = () => {
   return (
     <div>
       <h1 className="text-white text-6xl font-bold mb-6">Our team</h1>
-      <div className=" grid grid-cols-3 gap-3">
+      <div className=" grid mb:grid-cols-1 lg:grid-cols-3 gap-3">
         {teams.map((team) => (
           <Link key={team.id}>
             {

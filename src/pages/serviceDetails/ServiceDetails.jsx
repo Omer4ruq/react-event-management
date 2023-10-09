@@ -22,7 +22,7 @@ const ServiceDetails = () => {
             </button>
           </div>
           <div className="card-body ml-48">
-            <h1 className="text-4xl font-bold">{service.title}</h1>
+            <h1 className="text-4xl font-bold">{service.serviceName}</h1>
             <p className="text-lg font-normal">{service.longDescription}</p>
           </div>
         </div>
