@@ -69,7 +69,9 @@ const Login = () => {
             </form>
             <h1>
               Don't have an account? please{" "}
-              <NavLink to="/registration">Registration</NavLink>{" "}
+              <NavLink to="/registration" className="underline">
+                Registration
+              </NavLink>{" "}
             </h1>
           </div>
         </div>

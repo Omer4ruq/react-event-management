@@ -129,7 +129,9 @@ const Registration = () => {
             </button>
             <h1>
               All ready have an account? please{" "}
-              <NavLink to="/login">Login</NavLink>{" "}
+              <NavLink to="/login" className="underline">
+                Login
+              </NavLink>{" "}
             </h1>
           </div>
         </div>
