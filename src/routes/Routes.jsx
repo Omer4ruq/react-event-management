@@ -6,11 +6,14 @@ import Registration from "../pages/Registration/Registration";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoutes from "./PrivateRoutes";
 import UpComingEventDetails from "../pages/upComingEventDetails/upComingEventDetails";
+import Contact from "../pages/Contact/Contact";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -34,6 +37,14 @@ const routes = createBrowserRouter([
           </PrivateRoutes>
         ),
         loader: () => fetch("../../../public/db/upComingEventsdb.json"),
+      },
+      {
+        path: "/contact",
+        element: (
+          <PrivateRoutes>
+            <Contact></Contact>
+          </PrivateRoutes>
+        ),
       },
       {
         path: "/login",
