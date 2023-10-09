@@ -1,6 +1,6 @@
 import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const UpComing = () => {
   const [events, setEvents] = useState([]);
@@ -46,7 +46,11 @@ const UpComing = () => {
                       <h1 className="text-2xl font-bold">{event.time}</h1>
                       <h1 className="text-1xl font-bold">{event.location}</h1>
                       <p className="py-6">{event.description}</p>
-                      <button className="btn btn-primary">Get Started</button>
+                      <NavLink to={`/upcoming/${event.id}`}>
+                        <button className="btn btn-primary bg-neutral">
+                          Details
+                        </button>
+                      </NavLink>
                     </div>
                   </div>
                 </div>

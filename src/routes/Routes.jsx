@@ -5,6 +5,7 @@ import Login from "../pages/Login/Login";
 import Registration from "../pages/Registration/Registration";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoutes from "./PrivateRoutes";
+import UpComingEventDetails from "../pages/upComingEventDetails/upComingEventDetails";
 
 const routes = createBrowserRouter([
   {
@@ -24,6 +25,15 @@ const routes = createBrowserRouter([
           </PrivateRoutes>
         ),
         loader: () => fetch("../../../public/db/servicesdb.json"),
+      },
+      {
+        path: "/upcoming/:id",
+        element: (
+          <PrivateRoutes>
+            <UpComingEventDetails></UpComingEventDetails>
+          </PrivateRoutes>
+        ),
+        loader: () => fetch("../../../public/db/upComingEventsdb.json"),
       },
       {
         path: "/login",

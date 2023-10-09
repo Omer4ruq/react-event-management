@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tm1",
+    "name": "John Smith",
+    "position": "Event Manager",
+    "bio": "Passionate event manager with a knack for creating memorable experiences. John has successfully coordinated numerous large-scale events, ensuring everything runs smoothly from planning to execution.",
+    "image": "https://i.ibb.co/wC454d6/download.jpg"
+  },
+  {
+    "id": "tm2",
+    "name": "Alice Johnson",
+    "position": "Marketing Coordinator",
+    "bio": "Creative marketing professional with a focus on promoting events that leave a lasting impression. Alice utilizes innovative strategies to reach a wide audience and drive event attendance.",
+    "image": "https://i.ibb.co/Q9r90DH/images.jpg"
+  },
+  {
+    "id": "tm3",
+    "name": "Michael Rodriguez",
+    "position": "Technical Director",
+    "bio": "Experienced technical director skilled in managing the audiovisual aspects of events. Michael ensures that the technical elements enhance the overall event experience for attendees.",
+    "image": "https://i.ibb.co/9qsxxPV/team-17.jpg"
+  },
+  {
+    "id": "tm4",
+    "name": "Emily White",
+    "position": "Event Coordinator",
+    "bio": "Detail-oriented event coordinator dedicated to executing flawless events. Emily manages logistics, schedules, and communications to ensure that every aspect of the event runs seamlessly.",
+    "image": "https://i.ibb.co/hm4CytV/team1.png"
+  },
+  {
+    "id": "tm5",
+    "name": "David Lee",
+    "position": "Creative Designer",
+    "bio": "Innovative creative designer with a passion for visually stunning events. David brings ideas to life through captivating designs that set the tone for a unique and immersive event experience.",
+    "image": "https://i.ibb.co/M8mTPQ4/Team-3c.jpg"
+  },
+  {
+    "id": "tm6",
+    "name": "Sophia Martinez",
+    "position": "Logistics Coordinator",
+    "bio": "Efficient logistics coordinator experienced in managing the behind-the-scenes operations of events. Sophia ensures that materials, equipment, and personnel are organized to support successful events.",
+    "image": "https://i.ibb.co/vj2LcRB/Team-Member-02-1.webp.jpg"
+  }
+]

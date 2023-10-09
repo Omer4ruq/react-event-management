@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { FaGoogle } from "react-icons/fa";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -123,7 +124,9 @@ const Registration = () => {
                 <ToastContainer />
               </div>
             </form>
-            <button onClick={handleGoogleSignIn}>Sign In with Google</button>
+            <button onClick={handleGoogleSignIn} className="btn">
+              <FaGoogle></FaGoogle> Sign In with Google
+            </button>
             <h1>
               All ready have an account? please{" "}
               <NavLink to="/login">Login</NavLink>{" "}

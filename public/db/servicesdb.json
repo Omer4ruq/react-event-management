@@ -1,65 +1,83 @@
 [
   {
-    "id": "s1",
+    "id": 1,
     "serviceName": "Tech Conferences",
     "details": "Engage with industry leaders and discover the latest trends in technology.",
     "bookingOption": "Online booking available",
-    "image": "https://i.ibb.co/pd9VW3k/tech-conferenc.jpg"
+    "image": "https://i.ibb.co/pd9VW3k/tech-conferenc.jpg",
+    "bookingPrice": "$199.99",
+    "longDescription": "Our tech conferences go beyond the ordinary. Immerse yourself in insightful sessions led by renowned experts. Connect with like-minded professionals and stay ahead in the dynamic world of technology. Whether you are a seasoned professional or an aspiring enthusiast, our conferences provide a platform for learning, networking, and innovation."
   },
   {
-    "id": "s2",
+    "id": 2,
     "serviceName": "Gaming Tournaments",
     "details": "Experience thrilling gaming competitions with state-of-the-art setups.",
     "bookingOption": "Register your team now!",
-    "image": "https://i.ibb.co/1znSb14/Video-game-tournament.webp"
+    "image": "https://i.ibb.co/1znSb14/Video-game-tournament.webp",
+    "bookingPrice": "$299.99",
+    "longDescription": "Elevate your gaming experience with our tournaments. From esports enthusiasts to casual gamers, everyone is welcome to participate. Enjoy top-tier gaming equipment, compete for exciting prizes, and bask in the thrill of victory. Our gaming tournaments are designed to create memorable moments for both participants and spectators."
   },
   {
-    "id": "s3",
+    "id": 3,
     "serviceName": "Virtual Reality Showcases",
     "details": "Dive into immersive virtual reality experiences and explore cutting-edge VR technologies.",
     "bookingOption": "Book your VR adventure",
-    "image": "https://i.ibb.co/BLWNRmL/resized-Top-Upcoming-Augmented-and-Virtual-Reality-Events-and-Conventions-in-2018.jpg"
+    "image": "https://i.ibb.co/BLWNRmL/resized-Top-Upcoming-Augmented-and-Virtual-Reality-Events-and-Conventions-in-2018.jpg",
+    "bookingPrice": "$139.99",
+    "longDescription": "Step into a world of limitless possibilities with our virtual reality showcases. Immerse yourself in captivating virtual environments and witness the latest advancements in VR technology. Whether you're a VR enthusiast or a first-timer, our showcases promise an unforgettable journey into the realms of imagination."
   },
   {
-    "id": "s4",
+    "id": 4,
     "serviceName": "Tech and Gaming Expos",
     "details": "Discover and interact with the latest tech gadgets and gaming products.",
     "bookingOption": "Get your expo pass",
-    "image": "https://i.ibb.co/L8Z3pfc/tech-and-gamming-expos.jpg"
+    "image": "https://i.ibb.co/L8Z3pfc/tech-and-gamming-expos.jpg",
+    "bookingPrice": "$399.99",
+    "longDescription": "Join us at our tech and gaming expos for an exclusive look at the future. Explore booths showcasing cutting-edge technology and the latest gaming innovations. From futuristic gadgets to groundbreaking game releases, our expos provide a hands-on experience that will leave you inspired and informed."
   },
   {
-    "id": "s5",
+    "id": 5,
     "serviceName": "Coding Workshops",
     "details": "Enhance your coding skills with hands-on workshops conducted by expert programmers.",
     "bookingOption": "Enroll in a workshop",
-    "image": "https://i.ibb.co/bvFJWBs/Coding-Workshops.jpg"
+    "image": "https://i.ibb.co/bvFJWBs/Coding-Workshops.jpg",
+    "bookingPrice": "$99.99",
+    "longDescription": "Unlock your coding potential with our hands-on workshops. Led by industry experts, our coding workshops cater to all skill levels. Whether you're a beginner looking to start your coding journey or an experienced developer aiming to sharpen your skills, our workshops offer a collaborative learning environment and practical insights."
   },
   {
-    "id": "s6",
+    "id": 6,
     "serviceName": "E-Sports Leagues",
     "details": "Compete in professional e-sports leagues and showcase your gaming prowess.",
     "bookingOption": "Join a league",
-    "image": "https://i.ibb.co/2WkPk0t/esports.jpg"
+    "image": "https://i.ibb.co/2WkPk0t/esports.jpg",
+    "bookingPrice": "$159.99",
+    "longDescription": "Level up your gaming skills with our e-sports leagues. Battle against fierce competitors, experience the thrill of competitive gaming, and climb the ranks to victory. Our leagues are a blend of passion, strategy, and sportsmanship, providing a platform for aspiring e-sports athletes to shine."
   },
   {
-    "id": "s7",
+    "id": 7,
     "serviceName": "Future Tech Symposium",
     "details": "Explore futuristic technologies and their potential impact on various industries.",
     "bookingOption": "Secure your symposium seat",
-    "image": "https://i.ibb.co/pxJhbSD/Future-Tech-Symposium.jpg"
+    "image": "https://i.ibb.co/pxJhbSD/Future-Tech-Symposium.jpg",
+    "bookingPrice": "$199",
+    "longDescription": "Embark on a journey into the future with our tech symposium. Engage with thought leaders, visionaries, and innovators as they discuss the transformative technologies shaping tomorrow. From AI and robotics to space exploration, our symposium provides a glimpse into the possibilities that lie ahead."
   },
   {
-    "id": "s8",
+    "id": 8,
     "serviceName": "Game Developer Meetups",
     "details": "Connect with fellow game developers, share ideas, and collaborate on exciting projects.",
     "bookingOption": "RSVP for the next meetup",
-    "image": "https://i.ibb.co/D8jnPHP/game-developer-conference.jpg"
+    "image": "https://i.ibb.co/D8jnPHP/game-developer-conference.jpg",
+    "bookingPrice": "$145.99",
+    "longDescription": "Unlock the power of collaboration at our Game Developer Meetup. This is not just an event; it's a gathering of passionate minds"
   },
   {
-    "id": "s9",
+    "id": 9,
     "serviceName": "AI Innovation Summit",
     "details": "Delve into the world of artificial intelligence and its transformative applications.",
     "bookingOption": "Reserve your spot",
-    "image": "https://i.ibb.co/r3j11jN/AI-Innovation-Summit.jpg"
+    "image": "https://i.ibb.co/r3j11jN/AI-Innovation-Summit.jpg",
+    "bookingPrice": "$199.99",
+    "longDescription": "Immerse yourself in the cutting edge of artificial intelligence at our AI Innovation Summit. This summit is not just a conference; it's a convergence of minds pushing the boundaries of what's possible in AI. Whether you're an industry expert, a curious learner, or a business leader exploring AI applications, our summit is your gateway to the future."
   }
 ]

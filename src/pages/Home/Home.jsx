@@ -4,13 +4,14 @@ import { useLoaderData } from "react-router-dom";
 
 import ServicesCard from "./ServicesCard";
 import UpComing from "./UpComing";
+import Team from "./Team";
 
 const Home = () => {
   const ourService = useLoaderData();
 
   console.log(ourService);
   return (
-    <div className="">
+    <div className=" mb-10">
       <Header></Header>
 
       <div className="">
@@ -28,6 +29,9 @@ const Home = () => {
       </div>
       <div className="mt-10">
         <UpComing></UpComing>
+      </div>
+      <div className="">
+        <Team></Team>
       </div>
     </div>
   );
