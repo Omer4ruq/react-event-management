@@ -1,10 +1,17 @@
 import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaFacebook,
+  FaTwitch,
+  FaTwitter,
+} from "react-icons/fa";
 const Team = () => {
   const [teams, setTeams] = useState([]);
   useEffect(() => {
-    fetch("../../../public/db/teamdb.json")
+    fetch("/teamdb.json")
       .then((res) => res.json())
       .then((data) => setTeams(data));
     console.log("ami" + data);
@@ -21,8 +28,17 @@ const Team = () => {
                   <img className="h-72 w-auto" src={team.image} alt="Shoes" />
                 </figure>
                 <div className="text-white">
-                  <h2 className="card-title text-center ">{team.name}</h2>
-                  <p className="font-medium">{team.position}</p>
+                  <h2 className="font-bold text-2xl   ">{team.name}</h2>
+                  <h2 className=" font-normal text-lg text-yellow-600">
+                    {team.position}
+                  </h2>
+                </div>
+                <div className="text-white flex gap-2 justify-center mt-3">
+                  <FaLinkedin></FaLinkedin>
+                  <FaFacebook></FaFacebook>
+                  <FaInstagram></FaInstagram>
+                  <FaTwitter></FaTwitter>
+                  <FaTwitch></FaTwitch>
                 </div>
               </div>
             }

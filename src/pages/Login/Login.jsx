@@ -3,6 +3,22 @@ import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { FaGoogle } from "react-icons/fa";
+import app from "../../firebase/firebase.config";
+
+const provider = new GoogleAuthProvider();
+const auth = getAuth(app);
+const handleGoogleSignIn = () => {
+  signInWithPopup(auth, provider)
+    .then((result) => {
+      const user = result.user;
+      console.log(user);
+    })
+    .catch((error) => {
+      console.log(error.message);
+    });
+};
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -67,8 +83,11 @@ const Login = () => {
                 <ToastContainer />
               </div>
             </form>
+            <button onClick={handleGoogleSignIn} className="btn">
+              <FaGoogle></FaGoogle> Sign In with Google
+            </button>
             <h1>
-              Don't have an account? please{" "}
+              Do not have an account? please{" "}
               <NavLink to="/registration" className="underline">
                 Registration
               </NavLink>{" "}

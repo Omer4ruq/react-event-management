@@ -8,6 +8,7 @@ const ErrorPage = () => {
     <div>
       <h1>opps</h1>
       <p>{error.statusText || error.message}</p>
+      {/* https://event-management-assignm-8cb5c.web.app */}
     </div>
   );
 };

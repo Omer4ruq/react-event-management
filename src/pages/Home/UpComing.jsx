@@ -6,7 +6,7 @@ const UpComing = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch("../../../public/db/upComingEventsdb.json")
+    fetch("/upComingEventsdb.json")
       .then((res) => res.json())
       .then((data) => setEvents(data));
     console.log("ami" + data);
@@ -37,14 +37,14 @@ const UpComing = () => {
                 <div className="hero  bg-base-200">
                   <div className="hero-content flex-col lg:flex-row">
                     <img
+                      className="max-w-sm rounded-lg h- shadow-2xl"
                       src={event.image}
-                      className="max-w-sm rounded-lg shadow-2xl"
                     />
                     <div>
                       <h1 className="text-5xl font-bold">{event.title}</h1>
-                      <h1 className="text-3xl font-bold">{event.date}</h1>
-                      <h1 className="text-2xl font-bold">{event.time}</h1>
-                      <h1 className="text-1xl font-bold">{event.location}</h1>
+                      <h1 className="text-3xl font-normal">{event.date}</h1>
+                      <h1 className="text-2xl font-medium">{event.time}</h1>
+                      <h1 className="text-2xl font-light">{event.location}</h1>
                       <p className="py-6">{event.description}</p>
                       <NavLink to={`/upcoming/${event.id}`}>
                         <button className="btn btn-primary bg-neutral">

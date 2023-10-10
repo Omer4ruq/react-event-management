@@ -17,11 +17,11 @@ const ServiceDetails = () => {
         </figure>
         <div>
           <div className="">
-            <button className="btn btn-secondary bg-neutral border-none ml-72 mb-52 -mt-20 absolute">
+            <button className="btn btn-secondary bg-neutral border-none ml-32 -mt-6  absolute">
               Price: {service.bookingPrice}
             </button>
           </div>
-          <div className="card-body ml-48">
+          <div className="card-body ml-30 mr-10">
             <h1 className="text-4xl font-bold">{service.serviceName}</h1>
             <p className="text-lg font-normal">{service.longDescription}</p>
           </div>

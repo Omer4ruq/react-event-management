@@ -4,7 +4,7 @@ import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
-
+  console.log(user);
   const handleSignOut = () => {
     logOut().then().catch();
   };
@@ -32,7 +32,18 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            ></ul>
+            >
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+
+              <li>
+                <NavLink to="/">About Us</NavLink>
+              </li>
+              <li>
+                <NavLink to="/">Contact</NavLink>
+              </li>
+            </ul>
           </div>
           <NavLink className="btn btn-ghost normal-case text-xl" to="/">
             Technovation
@@ -43,9 +54,7 @@ const Navbar = () => {
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
-              <NavLink to="/services">Our Services</NavLink>
-            </li>
+
             <li>
               <NavLink to="/contact">Contact Us</NavLink>
             </li>
@@ -57,17 +66,29 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end mb:navbar-center">
           {user ? (
-            <div className="flex">
+            <div className="">
               {" "}
-              <p className="mr-2 mt-2">{user.email}</p>{" "}
-              <button
-                onClick={handleSignOut}
-                className="btn bg-black text-white border-yellow-400 rounded-none"
-              >
-                Sign Out
-              </button>
+              <div className="flex">
+                <div className="flex">
+                  <div className=" ">
+                    <img className="w-10 rounded-full" src={user.photoURL} />
+                  </div>
+                  <div>
+                    <p className="mr-2 mt-2">{user.displayName}</p>{" "}
+                  </div>
+                </div>
+
+                <div>
+                  <button
+                    onClick={handleSignOut}
+                    className="btn bg-black text-white border-yellow-400 rounded-none w-30"
+                  >
+                    Sign Out
+                  </button>
+                </div>
+              </div>
             </div>
           ) : (
             <NavLink to="/login">

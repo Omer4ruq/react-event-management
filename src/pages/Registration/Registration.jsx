@@ -1,7 +1,12 @@
 import React, { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
-import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import {
+  getAuth,
+  GoogleAuthProvider,
+  signInWithPopup,
+  updateProfile,
+} from "firebase/auth";
 import { FaGoogle } from "react-icons/fa";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -32,6 +37,7 @@ const Registration = () => {
     const password = form.get("password");
     const name = form.get("name");
     const photo = form.get("photo");
+    console.log(name);
 
     if (password.length < 6) {
       setRegisterError("Pasword should be at least 6 characters or longer");
@@ -51,7 +57,12 @@ const Registration = () => {
 
     createUser(email, password, name, photo)
       .then((result) => {
+        const user = result.user;
         console.log(result);
+        updateProfile(user, {
+          displayName: name,
+          photoURL: photo,
+        });
         setSuccess("User Created Succesfully");
         toast.dark(success);
       })

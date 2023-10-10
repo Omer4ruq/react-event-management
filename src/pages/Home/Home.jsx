@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../shared/Header/Header";
-import { useLoaderData } from "react-router-dom";
+import { NavLink, useLoaderData } from "react-router-dom";
 
 import ServicesCard from "./ServicesCard";
 import UpComing from "./UpComing";
@@ -15,7 +15,7 @@ const Home = () => {
       <Header></Header>
 
       <div className="">
-        <div className=" mt-10  -mb-2">
+        <div className="   -mb-2">
           <h1 className="text-6xl font-bold pb-2	  text-white">Our Services</h1>
         </div>
         <div className="grid mb:grid-cols-1 lg:grid-cols-3  gap-4 my-2 w-auto">
@@ -50,6 +50,11 @@ const Home = () => {
               plan, managing and executing successfully. And, we have
               experienced who will make your event unique and memorable!
             </p>
+            <NavLink to="/contact">
+              <button className="btn btn-secondary bg-neutral border-none ">
+                Contact US
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

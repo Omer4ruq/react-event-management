@@ -18,7 +18,7 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../../../public/db/servicesdb.json"),
+        loader: () => fetch("/servicesdb.json"),
       },
       {
         path: "/services/:id",
@@ -27,7 +27,7 @@ const routes = createBrowserRouter([
             <ServiceDetails></ServiceDetails>
           </PrivateRoutes>
         ),
-        loader: () => fetch("../../../public/db/servicesdb.json"),
+        loader: () => fetch("/servicesdb.json"),
       },
       {
         path: "/upcoming/:id",
@@ -36,7 +36,7 @@ const routes = createBrowserRouter([
             <UpComingEventDetails></UpComingEventDetails>
           </PrivateRoutes>
         ),
-        loader: () => fetch("../../../public/db/upComingEventsdb.json"),
+        loader: () => fetch("/upComingEventsdb.json"),
       },
       {
         path: "/contact",
